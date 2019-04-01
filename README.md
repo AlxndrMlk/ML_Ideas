@@ -18,7 +18,7 @@
   x = np.clip(x, LOWERBOUND, UPPERBOUND)
   ```
   
-  Python implementation [here] (https://github.com/AlxndrMlk/dataScienceHelpers/blob/master/percent_clipper.py)
+  Python implementation ![here](https://github.com/AlxndrMlk/dataScienceHelpers/blob/master/percent_clipper.py)
   
   
 * ### Rank transformation
@@ -28,4 +28,4 @@
   x = rankdata(x)
   ```
   
-  Documentaition [here] (https://docs.scipy.org/doc/scipy-0.16.0/reference/generated/scipy.stats.rankdata.html)
+  Documentaition ![here](https://docs.scipy.org/doc/scipy-0.16.0/reference/generated/scipy.stats.rankdata.html)
