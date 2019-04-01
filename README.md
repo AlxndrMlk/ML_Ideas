@@ -44,3 +44,9 @@
   # Power < 1 transformation
   x = np.sqrt(x + 2/3)
   ```
+  
+## Feature generation
+
+  Gradient boosting is a powerful model but it has a hard time approximating multiplication and division. Adding multiplied / divided features is a powerful trick even for boosting.
+  
+  
