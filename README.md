@@ -47,6 +47,17 @@
   
 ## Feature generation
 
+* ### Use mulitplications and divisions  
+
   Gradient boosting is a powerful model but it has a hard time approximating multiplication and division. Adding multiplied / divided features is a powerful trick even for boosting.
   
+* ### Prices: use fractional prices
+
+  If we have a price, we can build an additional feature `fractional_price` - this feature can inform model about customer's price perception
+  
+  | Price         | Fractional price |
+  | -------------:|-----------------:|
+  | 2.49          | 0.49    |
+  | 5.00          | 0.00      |  
+  | 19.99         | 0.99      |   
   
