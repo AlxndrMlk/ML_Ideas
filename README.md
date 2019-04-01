@@ -1,1 +1,4 @@
-# ML_Ideas
+# Machine Learning Ideas, Tips and Tricks
+
+
+* ## Outliers in liner models
