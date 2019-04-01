@@ -21,6 +21,7 @@
   Python implementation ![here](https://github.com/AlxndrMlk/dataScienceHelpers/blob/master/percent_clipper.py)
   
   
+  
 * ### Rank transformation
 
   ```python
@@ -29,3 +30,17 @@
   ```
   
   Documentaition ![here](https://docs.scipy.org/doc/scipy-0.16.0/reference/generated/scipy.stats.rankdata.html)
+  
+  
+  
+* ### Non-linear transformations
+  
+  ```python
+  # Log transformation
+  x = np.log(1 + x)
+  ```
+  
+  ```python
+  # Power < 1 transformation
+  x = np.sqrt(x + 2/3)
+  ```
