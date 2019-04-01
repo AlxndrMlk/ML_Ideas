@@ -1,7 +1,8 @@
 # Machine Learning Ideas, Tips and Tricks
 
+  This markdown contains useful information concerning machine learning, deep learning and statistics.
 
-* ## Dealing with outliers in liner models
+## Dealing with outliers in linear models
 
 * Outlier clipping
 
