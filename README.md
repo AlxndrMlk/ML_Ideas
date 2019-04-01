@@ -2,7 +2,7 @@
 
   This markdown contains useful information concerning machine learning, deep learning and statistics.
 
-## Dealing with outliers in linear models
+## Dealing with outliers in linear models and neural networks
 
 * ### Outlier clipping
 
@@ -33,7 +33,7 @@
   
   
   
-* ### Non-linear transformations
+* ### Non-linear transformations (useful for ANNs)
   
   ```python
   # Log transformation
