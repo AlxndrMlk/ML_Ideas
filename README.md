@@ -73,6 +73,11 @@
   * Frequency of appearance: [R, B, Z] -> [.3, .47, .23]
   
   ```python
+  # Encode the feature - which is a fancy name of getting the feature's frequencies:
   encoding = data['Feature'].value_counts() / len(data.Feature)
+  
+  # Map your encoding to the feature:
   data['encoded'] = data.Feature.map(encoding)
+  
+  # Done :)
   ```
