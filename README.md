@@ -62,3 +62,17 @@
   | 5.00          | 0.00      |  
   | 19.99         | 0.99      |   
   
+## Feature encoding
+
+* ### Encoding categorical features
+
+  * Alphabetical order: [R, B, Z] -> [2, 1, 3] (default in `sklearn.preprocessin.LabelEncoder`)
+
+  * Order of appearance: [R, B, Z] -> [1, 2, 3] (default in `Pandas.factorize`)
+  
+  * Frequency of appearance: [R, B, Z] -> [.3, .47, .23]
+  
+  ```python
+  encoding = data['Feature'].value_counts() / len(data.Feature)
+  data['encoded'] = data.Feature.map(encoding)
+  ```
