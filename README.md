@@ -66,11 +66,11 @@
 
 * ### Encoding categorical features
 
-  * Alphabetical order: [R, B, Z] -> [2, 1, 3] (default in `sklearn.preprocessin.LabelEncoder`)
+  * Alphabetical order: [R, B, Z] -> [2, 1, 3] (default in `sklearn.preprocessin.LabelEncoder`) (**tree-based methods**)
 
-  * Order of appearance: [R, B, Z] -> [1, 2, 3] (default in `Pandas.factorize`)
+  * Order of appearance: [R, B, Z] -> [1, 2, 3] (default in `Pandas.factorize`) (**tree-based methods**)
   
-  * Frequency of appearance: [R, B, Z] -> [.3, .47, .23] (can be useful in **linear models**))
+  * Frequency of appearance: [R, B, Z] -> [.3, .47, .23] (can also be useful in **linear models**)
   
   ```python
   # Encode the feature - which is a fancy name of getting the feature's frequencies:
