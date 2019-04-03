@@ -82,4 +82,4 @@
   # Done :)
   ```
   
-  * One-hot encoding (linear, kNN, ANN)
+  * One-hot encoding (**linear, kNN, ANN**)
