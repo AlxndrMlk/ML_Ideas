@@ -70,7 +70,7 @@
 
   * Order of appearance: [R, B, Z] -> [1, 2, 3] (default in `Pandas.factorize`)
   
-  * Frequency of appearance: [R, B, Z] -> [.3, .47, .23]
+  * Frequency of appearance: [R, B, Z] -> [.3, .47, .23] (can be useful in **linear models**))
   
   ```python
   # Encode the feature - which is a fancy name of getting the feature's frequencies:
@@ -81,3 +81,5 @@
   
   # Done :)
   ```
+  
+  * One-hot encoding (linear, kNN, ANN)
