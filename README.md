@@ -83,3 +83,7 @@
   ```
   
   * One-hot encoding (**linear, kNN, ANN**)
+  
+* ### Encoding ordinal features for linear models
+
+  * *Polynomial contrasts* - use your original, quadratic and cubic predictors in the model to generalize monotonicity to non-linear monotonicities as well. Ispired by this ![thread](https://stats.stackexchange.com/questions/195246/how-to-handle-ordinal-categorical-variable-as-independent-variable) 
