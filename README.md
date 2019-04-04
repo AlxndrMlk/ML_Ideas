@@ -46,7 +46,7 @@
   x = np.sqrt(x + 2/3)
   ```
   
-## Feature generation
+## Feature generation and extraction
 
 * ### Use mulitplications and divisions  
 
