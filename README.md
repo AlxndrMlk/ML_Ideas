@@ -66,6 +66,10 @@
   
   Sometimes having char level n-grams can be cheaper than having all unique words from the dataset. Char n-grams can also help with handling previously unseen words (e.g. rare forms of words present in the training data).
   
+* ### Text: word2vec vs Bag of Words
+
+  Both methods pretty often lead to different results. Using both can be beneficial.
+  
 ## Feature encoding
 
 * ### Encoding categorical features
