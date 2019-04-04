@@ -58,9 +58,13 @@
   
   | Price         | Fractional price |
   | -------------:|-----------------:|
-  | 2.49          | 0.49    |
+  | 2.49          | 0.49      |
   | 5.00          | 0.00      |  
   | 19.99         | 0.99      |   
+  
+* ### Text: using char n-grams
+  
+  Sometimes having char level n-grams can be cheaper than having all unique words from the dataset. Char n-grams can also help with handling previously unseen words (e.g. rare forms of words present in the training data).
   
 ## Feature encoding
 
