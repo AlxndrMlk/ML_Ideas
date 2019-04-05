@@ -108,4 +108,11 @@
   ```python
   df.mean().sort_values().plot(style='.')
   ```
+  
+  * Based on **variance**
+  
+  ```python
+  df.var().sort_values().plot(style='.')
+  ```
+  
 
