@@ -104,6 +104,7 @@
 * ### Explore fetures groups 
 
   * Based on **means**
+  
   ```python
   df.mean().sort_values().plot(style='.')
   ```
