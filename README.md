@@ -117,10 +117,19 @@
   
 ## Validation
 
-* ### Perform K-Fold CV on different splits and average the scores
+* ### Extensive validation
+
+  * Perform K-Fold CV on different splits and average the scores
     
-  Use different `random_seed` for each split.
+    Use different `random_seed` for each split.
   
-* ### Tune model on one K-Fold split, evaluate on the other
+  * Tune model on one K-Fold split, evaluate on the other
+  
+* ### Performance
+
+  * If a single CV run is very slow, use a subset of the data to run the CV. This will help your CV loop to run faster. Of course, the subset should not be too small or else the CV score will not be representative.
+  
+  
+
 
   
