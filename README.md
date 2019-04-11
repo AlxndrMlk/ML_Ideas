@@ -115,4 +115,12 @@
   df.var().sort_values().plot(style='.')
   ```
   
+## Validation
 
+* ### Perform K-Fold CV on different splits and average the scores
+    
+  Use different `random_seed` for each split.
+  
+* ### Tune model on one K-Fold split, evaluate on the other
+
+  
