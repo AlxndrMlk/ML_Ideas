@@ -121,7 +121,7 @@
 
   * Perform K-Fold CV on different splits and average the scores
     
-    Use different `random_seed` for each split.
+    Use different `random_state` for each split.
   
   * Tune model on one K-Fold split, evaluate on the other
   
