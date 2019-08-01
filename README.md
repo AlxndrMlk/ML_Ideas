@@ -95,13 +95,16 @@
   * Interactions of categorical features 
   can also be useful for **linear** and **kNN**.
   
+  * Mean encoding
+  A nice description [here](https://towardsdatascience.com/why-you-should-try-mean-encoding-17057262cd0).
+  
 * ### Encoding ordinal features for linear models
 
   * *Polynomial contrasts* - use your original, quadratic and cubic predictors in the model to generalize monotonicity to non-linear monotonicities as well. Ispired by this [thread](https://stats.stackexchange.com/questions/195246/how-to-handle-ordinal-categorical-variable-as-independent-variable) 
   
 ## EDA
 
-* ### Explore fetures groups 
+* ### Explore features groups 
 
   * Based on **means**
   
