@@ -95,9 +95,7 @@
   * Interactions of categorical features 
   can also be useful for **linear** and **kNN**.
   
-  * Mean encoding
-  
-  A nice description [here](https://towardsdatascience.com/why-you-should-try-mean-encoding-17057262cd0).
+  * Mean encoding (**linear, kNN, ANN, tree-based**): check a nice description [here](https://towardsdatascience.com/why-you-should-try-mean-encoding-17057262cd0).
   
 * ### Encoding ordinal features for linear models
 
